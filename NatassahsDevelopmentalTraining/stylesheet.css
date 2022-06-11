@@ -1,0 +1,67 @@
+
+.container {
+    background-color: rgba(224, 224, 224, .3);
+    border-style: groove;
+    margin: 200px 200px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 100px;
+    text-decoration-line: underline;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 50px;
+}
+
+p.introduction {
+    padding: 10px 60px;
+    font-size: 2em;
+}
+
+.training-list {
+    display: grid;
+    grid-row-gap: 40px;
+    grid-template-areas: 
+    "one one"
+    "two two"
+    "three three"
+    "four four"
+    "five six"
+    ;
+}
+
+.training-1{
+    grid-area: one;
+    display: grid;
+    grid-template-columns: 35% 65%;
+}
+.training-2{
+    grid-area: two;
+    display: grid;
+    grid-template-columns: 65% 35%;
+}
+.training-3{
+    grid-area: three;
+    display: grid;
+    grid-template-columns: 35% 65%;
+}
+.training-4{
+    grid-area: four;
+    display: grid;
+    grid-template-columns: 65% 35%;
+}
+.training-5{
+    grid-area: five;
+    display: grid;
+    grid-template-columns: 45% 55%;
+}
+.training-6{
+    grid-area: six;
+    display: grid;
+    grid-template-columns: 45% 55%;
+}
